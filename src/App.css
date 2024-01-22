@@ -1,0 +1,148 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.menu {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu h2 {
+  color: #555;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menu li {
+  margin: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  transition: transform 0.3s;
+}
+
+.menu li:hover {
+  transform: scale(1.05);
+}
+
+.menu button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.menu button:hover {
+  background-color: #45a049;
+}
+
+.cart {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  color: #555;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+input {
+  width: 40px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.total-cost,
+.preparation-time {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.ads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ad-container {
+  flex: 0 0 30%;
+  margin: 10px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ad-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.ad-description {
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Optional: Add animation on hover */
+.ad-container:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
